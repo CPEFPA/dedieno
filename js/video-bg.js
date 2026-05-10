@@ -1,0 +1,1 @@
+﻿document.addEventListener("DOMContentLoaded",()=>{const v=document.getElementById("bgVideo");if(/Android|iPhone/i.test(navigator.userAgent)){v.style.display="none";document.querySelector(".video-overlay").style.background="linear-gradient(135deg,#001c38,#003d7a)"}v?.play().catch(()=>{})});
